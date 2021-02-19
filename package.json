@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel serve src/index.html",
-    "deploy": "rm -rf build && parcel build -d build --public-url /naikis-pro/  && gh-pages -d build"
+    "build": "rm -rf build && parcel build src/index.html -d build --public-url /naikis-pro/",
+    "deploy": "gh-pages -d build"
   },
   "author": "Isma",
   "license": "ISC",
