@@ -13,7 +13,7 @@ body{
     z-index: 2;
 }
 
-.watermark{
+.watermark-nike{
     position: absolute;
     color: white;
     opacity: 0.05;
@@ -21,7 +21,17 @@ body{
     font-weight: 800;
     transform: rotatez(-90deg);
     top: 300px;
-    right: 750px;
+    right: 730px;
+    z-index: 0;
+}
+
+.watermark-fast{
+    position: absolute;
+    color: white;
+    opacity: 0.05;
+    font-size: 250px;
+    font-weight: 800;
+    top: 500px;
     z-index: 0;
 }
 
@@ -68,6 +78,7 @@ body{
     background-color: white;
     -webkit-box-shadow: 0px 28px 37px -9px rgba(0,0,0,0.78); 
      box-shadow: 0px 28px 37px -9px rgba(0,0,0,0.78);
+     z-index: 1;
 }
 
 .head{
