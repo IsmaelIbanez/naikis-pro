@@ -3,6 +3,8 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .container{
+    width: 1300px;
+    height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,11 +16,12 @@ body{
 .watermark{
     position: absolute;
     color: white;
-    opacity: 0.5;
+    opacity: 0.05;
     font-size: 300px;
     font-weight: 800;
     transform: rotatez(-90deg);
-    top: 200px;
+    top: 300px;
+    right: 750px;
     z-index: 0;
 }
 
@@ -27,7 +30,8 @@ body{
     height: 550px;
     background: linear-gradient(45deg, rgba(0,140,185,1) 0%, rgba(132,184,101,1) 100%);
     -webkit-box-shadow: 0px 28px 37px -9px rgba(0,0,0,0.78); 
-box-shadow: 0px 28px 37px -9px rgba(0,0,0,0.78);
+    box-shadow: 0px 28px 37px -9px rgba(0,0,0,0.78);
+    z-index: 1;
 }
 .image .photo{
     position: relative;
