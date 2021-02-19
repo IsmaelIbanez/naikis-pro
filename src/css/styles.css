@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, rgba(41,73,84,1) 0%, rgba(78,90,68,1) 100%);
+    padding: 80px;
+    z-index: 2;
+}
+
+.watermark{
+    position: absolute;
+    color: white;
+    opacity: 0.5;
+    font-size: 300px;
+    font-weight: 800;
+    transform: rotatez(-90deg);
+    top: 200px;
+    z-index: 0;
+}
+
+.image{
+    width: 430px;
+    height: 550px;
+    background: linear-gradient(45deg, rgba(0,140,185,1) 0%, rgba(132,184,101,1) 100%);
+    -webkit-box-shadow: 0px 28px 37px -9px rgba(0,0,0,0.78); 
+box-shadow: 0px 28px 37px -9px rgba(0,0,0,0.78);
+}
+.image .photo{
+    position: relative;
+    margin-left: 480px;
+    margin-top: 60px;
+    transform: scaleX(-1) rotatez(-27deg);
+    right: 0px;
+}
+
+.photo img{
+    width: 600px;
+    height: 600px;
+}
+
+.share{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 635px;
+    left: 340px;
+    border: solid 2px white;
+    width: 60px ;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: white;
+    color: #70C088;
+}
+
+.info{
+    width: 450px;
+    height: 630px;
+    background-color: white;
+    -webkit-box-shadow: 0px 28px 37px -9px rgba(0,0,0,0.78); 
+     box-shadow: 0px 28px 37px -9px rgba(0,0,0,0.78);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 40px auto 40px
+}
+
+.stars{
+    color:#FEC600;
+    font-size: 20px;
+}
+
+.price{
+    display: flex;
+    color: #585858
+}
+
+.dolar{
+    align-self: flex-start;
+    font-size: 2rem;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.number{
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.sneakers-info{
+    margin: 30px 20px auto 30px
+}
+
+
+
+.sneakers-model{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.sneaker-descripton{
+    font-weight: 300 ;
+}
+
+.color-selector{
+    margin: 30px 20px auto 30px;
+    color: #585858
+}
+
+.color-title{
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(145, 142, 142);
+}
+
+.colors{
+    display: flex;
+}
+
+.colors div{
+    margin-left: 15px;
+}
+
+.primary{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #65CFE9;
+}
+ .secondary{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #0097CE;
+}
+
+.tertiary{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #82DA90;
+}
+
+.quaternary{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #F4CE52;
+}
+
+.quinary{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #6F72D3;
+}
+
+.size{
+    margin-left: 30px;
+    color: #585858;
+    margin-top: 25px;
+}
+
+.size .size-title{
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(145, 142, 142);
+}
+
+.size-selector{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.size-up{
+    padding: 5px 20px 5px 15px;
+    border-top: solid 1px rgb(145, 142, 142);
+    border-bottom: solid 1px rgb(145, 142, 142);
+    border-right: solid 1px rgb(145, 142, 142);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    color: rgb(145, 142, 142);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.size-down{
+    padding: 5px 15px 5px 20px;
+    border-top: solid 1px rgb(145, 142, 142);
+    border-bottom: solid 1px rgb(145, 142, 142);
+    border-left: solid 1px rgb(145, 142, 142);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    color:rgb(145, 142, 142);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.size-number{
+    padding: 10px 15px 5px 15px;
+    border: solid 1px rgb(145, 142, 142);
+    font-weight: 700;
+    font-size: 25px;
+}
+.add-buttom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    }
+
+.add-buttom .message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 70px;
+    background-color: #009AD0 ;
+    color: white;
+    border-radius: 35px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    -webkit-box-shadow: 0px 12px 20px 0px rgba(0,154,208,0.66); 
+box-shadow: 0px 12px 20px 0px rgba(0,154,208,0.66);
+   }
+
+   .message i{
+       margin-left: 20px;
+   }
+
+.wishlist{
+    margin-top: 30px;
+    text-decoration:underline ;
+    color: #009AD0
+}
